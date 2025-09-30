@@ -1,0 +1,13 @@
+# OpenAI Whisper for audio transcription
+openai-whisper==20231117
+
+# Progress bars
+tqdm>=4.66.0
+
+# Required by whisper
+numpy>=1.20.0
+torch>=2.0.0
+ffmpeg-python>=0.2.0
+
+# Optional: for better performance
+# numba>=0.57.0
