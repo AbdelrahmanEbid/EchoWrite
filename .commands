@@ -1,0 +1,25 @@
+#!/bin/bash
+# EchoWrite Quick Commands
+# Save this file and run: source .commands
+
+alias echo-download='python download_audio.py -f urls.txt --auto'
+alias echo-transcribe='python transcribe.py -d instgram/ youtube/ facebook/'
+alias echo-add-url='echo "$1" >> urls.txt && echo "✓ Added to urls.txt"'
+alias echo-clear-urls='> urls.txt && echo "✓ Cleared urls.txt"'
+alias echo-show='tree -L 2 instgram/ youtube/ facebook/ 2>/dev/null || ls -R instgram/ youtube/ facebook/'
+alias echo-find='find instgram/ youtube/ facebook/ -name "*.txt" -type f'
+
+echo "EchoWrite commands loaded! 🎉"
+echo ""
+echo "Available commands:"
+echo "  echo-download     - Download all URLs from urls.txt (auto-organized)"
+echo "  echo-transcribe   - Transcribe all platforms"
+echo "  echo-show         - Show organized folder structure"
+echo "  echo-find         - Find all transcripts"
+echo "  echo-clear-urls   - Clear urls.txt"
+echo ""
+echo "Usage:"
+echo "  1. Add URLs: echo 'YOUR_URL' >> urls.txt"
+echo "  2. Download: echo-download"
+echo "  3. Transcribe: echo-transcribe"
+echo ""
