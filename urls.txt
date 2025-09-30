@@ -1,0 +1,11 @@
+# Audio Download URLs
+# Add one URL per line
+# Lines starting with # are ignored
+
+# Example URLs (uncomment and replace with your own):
+# https://www.youtube.com/watch?v=dQw4w9WgXcQ
+# https://www.instagram.com/reel/...
+# https://www.facebook.com/watch?v=...
+
+https://www.instagram.com/reel/DLnO63osaBs/?utm_source=ig_web_copy_link
+https://youtu.be/8xaddS0LEqQ?si=X8MyAt3y5BtqyLOG
