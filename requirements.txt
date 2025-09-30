@@ -9,5 +9,8 @@ numpy>=1.20.0
 torch>=2.0.0
 ffmpeg-python>=0.2.0
 
+# Audio downloader for video platforms (YouTube, Instagram, Facebook, etc.)
+yt-dlp>=2024.0.0
+
 # Optional: for better performance
 # numba>=0.57.0
